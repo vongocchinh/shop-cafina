@@ -40,7 +40,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: -20px;
+    margin-bottom: -30px;
 }
 
 .row-header-bottom {
@@ -165,11 +165,11 @@
     
     background-color: white;
     width: 200px;
-    height: 150px;
+    height: 180px;
     position: absolute;
-    margin-top: 190px;
+    margin-top: 225px;
     margin-left: 155px;
-    padding: 5px;
+    padding: 10px;
     z-index: -1;
     overflow-y: auto;
     border-top: 1px solid #505050;
@@ -189,14 +189,14 @@
 .menu-button-header-hover div {
     width: 100%;
     background-color: white;
-    font-size: 14px;
+    font-size: 13px;
     z-index: 111;
     padding: 3px;
 }
 
 .menu-button-header-hover div:hover{
     color: #fca22c;
-    background-color: #888;
+    /* background-color: #C7C5C3; */
 }
 
 .row-header-bottom-button {
@@ -295,11 +295,13 @@
     padding: 3px;
     font-weight: 200;
     font-size: 12px;
-    color: #616161;
+    color: #505050;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .CROSS-BODY-hover-button-column p:hover{
     cursor: pointer;
-    color: #0976B4;
+    color: #ffc229;
+
 }
 @keyframes example {
     from {
@@ -778,7 +780,7 @@
 }
 .container-body-two-title{
     font-weight: 30;
-    color:#2e2e2e;
+    color:#f1f1f1;
     width: 100%;
     text-align: center;
     padding-top: 70px;
@@ -828,7 +830,8 @@
 .img-container-2 {
     width: 100%;
     height: auto;
-    background-color:rgb(255, 255, 255)
+    background-color:rgb(255, 255, 255);
+    background-image: url("/asset/bgheader2.png");
 }
 
 .container-product-two-home{
@@ -1004,3 +1007,22 @@
 .container-option-icon .fa:hover,.footer-bottom-row-icon .fa:hover{
     margin-top: -15px;
 }
+.scroll-top{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    z-index: 555;
+    box-shadow: 0 2px 2px #ffc229, 0 10px 10px rgba(221, 214, 12, 0.22);
+}
+
+.container-scroll-top{
+    width: 40px;
+    height: 40px;
+    background-color: #ffc229;    z-index: 556;
+}
+
+/* .container-scroll-top:hover{
+    margin-top: 10px;
+} */
